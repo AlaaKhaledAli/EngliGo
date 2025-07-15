@@ -1,10 +1,9 @@
 import { useState } from 'react'
 import login from '../../assets/images/login.png'
-import './Login.css'
-import Input from '../../Components/FormInput/FormInput';
-import axios from 'axios';
-const Login = () => {
-    const [userData, setUserData] = useState({
+import './Register.css';
+import Input from '../../Components/FormInput/FormInput'
+const Register=()=>{
+        const [userData, setUserData] = useState({
         email: '',
         pass: ''
     })
@@ -14,6 +13,8 @@ const Login = () => {
     })
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+    // const passwordRegex =
+    // /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?#&^_-])[A-Za-z\d@$!%*?#&^_-]{8,}$/;
 
     const changeUserData = (e) => {
@@ -52,16 +53,13 @@ const Login = () => {
     }
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post("")
-             .then()
-             .catch((err)=>{console.log(err);})
     }
-    return (
+    return(
         <>
-            <div className="container text-danger vh-100 p-0 m-0">
-                <div className="row justify-content-evenly shadow rounded align-items-center">
+            <div className="container text-danger">
+                <div className="row justify-content-evenly shadow rounded my-5 align-items-center">
                     <div className="col-8">
-                        <h1 className='text-danger  my-3 text-center'>Login</h1>
+                        <h1 className='text-danger  my-3 text-center'>Register</h1>
                         <p className='text-black'>  Welcome back! Log in to continue your journey of improving your English speaking, listening, and vocabulary skills. Let’s get one step closer to fluency — one conversation at a time.</p>
                     </div>
                     <div className="col-8 ">
@@ -85,4 +83,4 @@ const Login = () => {
     )
 }
 
-export default Login;
+export default Register

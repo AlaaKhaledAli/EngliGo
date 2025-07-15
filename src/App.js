@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './Components/navbar/Navbar';
 import Login from './Pages/Login/Login';
-import Register from './Pages/Regster/Register';
+import Register from './Pages/Register/Register';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import ChatBot from 'react-chatbotify';
@@ -11,6 +11,17 @@ import { ThemeProvider } from 'react-bootstrap';
 
 
 function App() {
+  const styles = {
+    headerStyle: {
+      background: '#42b0c5',
+      color: '#ffffff',
+      padding: '10px',
+    },
+    chatWindowStyle: {
+      backgroundColor: '#f2f2f2',
+    },
+    // ...other styles
+  };
 const steps = [
     {
         id: '0',
@@ -80,7 +91,7 @@ const config = {
         </Switch>
 <ThemeProvider theme={theme}>
                 <ChatBot
-
+                styles={styles}
                     // This appears as the header
                     // text for the chat bot
                     headerTitle="GeekBot"

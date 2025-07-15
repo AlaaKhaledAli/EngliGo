@@ -1,9 +1,15 @@
-input:focus{
+nav {
+    position: static !important;
+}
+form  .input-group input:focus,input:is(:-webkit-autofill, :autofill)
+{
     outline: none !important;
     box-shadow: none !important;
+    background-color: transparent ;
 }
 .input{
-    margin-left: 10%;
+    margin-left: 15%;
+    z-index: -2;
 }
 .input-group i{
     left: 5%;

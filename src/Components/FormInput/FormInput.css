@@ -1,0 +1,11 @@
+input:-webkit-autofill {
+    outline: none !important;
+    box-shadow: none !important;
+  transition: background-color 5000s ease-in-out 0s; /* prevent override */
+}
+input{
+    margin-left: 25%;
+}
+.input-group i{
+    left: 3%;
+} 

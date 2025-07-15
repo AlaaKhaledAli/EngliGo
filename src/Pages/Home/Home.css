@@ -64,5 +64,5 @@ li div:first-child{
     background-color: white !important;
 }
 .features{
-    transform: translateX(-15%);
+    transform: translateX(-60px);
 }
