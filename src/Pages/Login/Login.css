@@ -1,0 +1,10 @@
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.input{
+    margin-left: 10%;
+}
+.input-group i{
+    left: 5%;
+} 
