@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/EngliGo/static/css/main.65d322b0.css",
+    "main.js": "/EngliGo/static/js/main.0dbe919e.js",
+    "static/js/453.2da981d4.chunk.js": "/EngliGo/static/js/453.2da981d4.chunk.js",
+    "static/media/login.png": "/EngliGo/static/media/login.6da248bd3d16e1688195.png",
+    "static/media/bg-03-free-img.jpg": "/EngliGo/static/media/bg-03-free-img.67e35f535814cbdb232e.jpg",
+    "static/media/bg-05-free-img.jpg.jpeg": "/EngliGo/static/media/bg-05-free-img.jpg.087244dc2aa1d64f129b.jpeg",
+    "static/media/bg-overlay-02-free-img.png": "/EngliGo/static/media/bg-overlay-02-free-img.832ec2a7d0f7a8bfe67d.png",
+    "static/media/logo.svg": "/EngliGo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/EngliGo/index.html",
+    "main.65d322b0.css.map": "/EngliGo/static/css/main.65d322b0.css.map",
+    "main.0dbe919e.js.map": "/EngliGo/static/js/main.0dbe919e.js.map",
+    "453.2da981d4.chunk.js.map": "/EngliGo/static/js/453.2da981d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65d322b0.css",
+    "static/js/main.0dbe919e.js"
+  ]
+}
