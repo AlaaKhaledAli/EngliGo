@@ -2,8 +2,10 @@ import { useState } from 'react'
 import login from '../../assets/images/login.png'
 import './Register.css';
 import Input from '../../Components/FormInput/FormInput'
+import axios from 'axios';
 const Register=()=>{
         const [userData, setUserData] = useState({
+            fullName:'',
         email: '',
         pass: ''
     })
@@ -53,6 +55,13 @@ const Register=()=>{
     }
     const handleSubmit = (e) => {
         e.preventDefault();
+        axios.post("http://englishhelperapi.runasp.net/api/Auth/Register",{
+  "fullName": "Alaa Khaled Ali",
+  "email": userData.email,
+  "password": userData.pass
+})
+        .then(res=>console.log(res))
+        .catch(err=>console.log(err))
     }
     return(
         <>

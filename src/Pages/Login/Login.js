@@ -58,8 +58,8 @@ const Login = () => {
     }
     return (
         <>
-            <div className="container text-danger vh-100 p-0 m-0">
-                <div className="row justify-content-evenly shadow rounded align-items-center">
+            <div className="container text-danger vh-100 ">
+                <div className="row justify-content-center shadow rounded align-items-center">
                     <div className="col-8">
                         <h1 className='text-danger  my-3 text-center'>Login</h1>
                         <p className='text-black'>  Welcome back! Log in to continue your journey of improving your English speaking, listening, and vocabulary skills. Let’s get one step closer to fluency — one conversation at a time.</p>

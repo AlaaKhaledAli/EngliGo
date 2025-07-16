@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import ChatBot from 'react-chatbotify';
 import { ThemeProvider } from 'react-bootstrap';
+import Challenge from './Pages/Challange/Challenge';
 
 
 function App() {
@@ -88,6 +89,7 @@ const config = {
           <Route exact path={'/'} component={Home}/>
           <Route exact path={'/login'} component={Login} />
           <Route exact path={'/register'} component={Register} />
+          <Route exact path={'/challenge'} component={Challenge} />
         </Switch>
 <ThemeProvider theme={theme}>
                 <ChatBot
