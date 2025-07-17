@@ -83,7 +83,7 @@ const config = {
 };
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter  basename="/EngliGo">
         <NavBar />
         <Switch>
           <Route exact path={'/'} component={Home}/>
