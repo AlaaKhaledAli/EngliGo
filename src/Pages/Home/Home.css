@@ -11,7 +11,7 @@
                     rgba(0, 0, 0, 0.5) ,
                     rgba(0, 0, 0, 0.4),
                     rgba(0, 0, 0, 0.8) 
-                ),top/cover url(../../assets/images/bg-03-free-img.jpg) no-repeat fixed;
+                ), center/cover url(../../assets/images/bg-03-free-img.jpg) no-repeat fixed ;
     height: 100dvh;
 }
 .hero-container{
@@ -65,4 +65,10 @@ li div:first-child{
 }
 .features{
     transform: translateX(-60px);
+}
+
+@media screen and (max-width:767px){
+    .features{
+    transform: translateY(-5%);
+    }
 }

@@ -11,7 +11,7 @@ const Home = () => {
             </section>
             <section id='instructions'>
                 <div className="container vh-100 py-5">
-                    <div className='row vh-100 align-items-center'>
+                    <div className='row vh-100 justify-content-center'>
                         <div className='col-lg-4 col-md-8 col-11'>
                             <div className='section-text text-body'>
                                 <h2 className='fw-bolder'>How it all works</h2>
