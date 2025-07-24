@@ -10,7 +10,7 @@ import Reading from './Pages/Reading/Reading';
 import Footer from './Components/Footer/Footer';
 import ChatBot from './Pages/ChatBot/ChatBot';
 import Writing from './Pages/Spoken/Writing';
-
+import './index.css';
 function App() {
   return (
     <>
