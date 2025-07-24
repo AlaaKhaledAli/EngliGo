@@ -3,7 +3,6 @@
   "name": "engligo",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://englishhelperapi.runasp.net", 
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -12,10 +11,12 @@
     "axios": "^1.10.0",
     "bootstrap": "^5.3.7",
     "cors": "^2.8.5",
+    "lucide-react": "^0.525.0",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-chatbotify": "^2.2.0",
     "react-dom": "^19.1.0",
+    "react-media-recorder": "^1.7.1",
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
     "react-webcam": "^7.2.0",
@@ -48,7 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@gradio/client": "^1.15.5",
+    "@gradio/client": "^1.15.6",
     "gh-pages": "^6.3.0"
   }
 }

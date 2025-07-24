@@ -1,0 +1,23 @@
+/* Footer */
+footer{
+    background-color: #252641;
+    color: #B2B3CF;
+}
+footer .social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color:#252641 ;
+}
+footer .links a{
+    background-color: #252641;
+    color: rgb(178, 179, 207);
+    transition: all 0.3s;
+}
+footer .links a:hover{
+    color:rgb(219, 220, 255) ;
+}

@@ -1,0 +1,46 @@
+.translate-on-x{
+transform: translateY(-25%);
+}
+textarea{
+    height: 20vh;
+    resize: none;
+}
+.res-img{
+  max-width: 50%;
+  max-height: 50%;
+}
+.custom-card {
+  transform-style: preserve-3d;
+  position: relative;
+  height: 100%;
+}
+.color-teal
+{
+  color: #4ecdc4;
+}
+.bg-teal{
+  background-color: rgba(78, 205, 196,0.7);
+}
+.bg-teal:hover{
+  background-color: rgba(78, 205, 196,1);
+}
+.flip {
+  transition: transform 0.8s;
+  backface-visibility: hidden;
+}
+
+.front {
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.flipped .back {
+  transform: rotateY(0deg);
+}

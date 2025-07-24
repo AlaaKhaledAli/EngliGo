@@ -55,13 +55,13 @@ const Register=()=>{
     }
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post("http://englishhelperapi.runasp.net/api/Auth/Register",{
+  axios.post("Auth/Register",{
   "fullName": "Alaa Khaled Ali",
   "email": userData.email,
   "password": userData.pass
 })
-        .then(res=>console.log(res))
-        .catch(err=>console.log(err))
+
+
     }
     return(
         <>

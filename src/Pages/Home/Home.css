@@ -2,73 +2,92 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: white;
+    /* color: white; */
+}
+a{
+        text-decoration: none;
 }
 /* Hero Section */
-#hero{
-    background:    linear-gradient(
-                    to bottom , 
-                    rgba(0, 0, 0, 0.5) ,
-                    rgba(0, 0, 0, 0.4),
-                    rgba(0, 0, 0, 0.8) 
-                ), center/cover url(../../assets/images/bg-03-free-img.jpg) no-repeat fixed ;
-    height: 100dvh;
+.hero-section{
+background-color: rgba(35, 189, 238,0.7);
+display: flex;
+justify-content: center;
+overflow: hidden;
 }
-.hero-container{
+
+.medium-orange-col{
+    color: #F48C06;
+
+}
+.bg-white-30{
+    background-color: rgba(255, 255, 255,0.3);
+}
+.bg-white-30:hover{
+    background-color: rgba(255, 255, 255,0.3);
+}
+
+
+    /* privileges section */
+.privileges-section{
     text-align: center;
-    margin: 0 auto;
-    min-height: 100dvh;
-    max-width: 80%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+    justify-content: space-between;
 }
-.hero-container h1,h1 *{
-    font-size:5.5vw !important;
+.cards{
+    display: flex;
+    justify-content:center ;
+    flex-wrap:wrap;
 }
-/* Instructions Section */
-#instructions{
-    margin: 0;
-    padding: 0;
-background: linear-gradient(180deg,#efefef 0%, #ffffff 100%);
-min-height: 100dvh;
+.card{
+    margin: 50px 20px;
 }
-#instructions::before{
-    content: '';
-background-image: url(../../assets/images/bg-overlay-02-free-img.png);
-}
-#instructions {
-  border-top: 1px solid transparent;
-}
-
-#instructions .img-bg{
-    background-image: linear-gradient(
-                    to bottom , 
-                    rgba(0, 0, 0, 0.5) 20%,
-                    rgba(0, 0, 0, 0.3),
-                    rgba(0, 0, 0, 0.5) 20%
-                ),url(../../assets/images/bg-05-free-img.jpg.jpeg);
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-ol *{
+.privileges-section .cards .card{
+    max-width: 300px;
     color: black;
-    list-style: none;
 }
-li div:first-child{
+.card:nth-child(2) .card-icon{
+    background-color: #5B72EE;
+}
+.card:nth-child(3) .card-icon{
+    background-color: #00CBB8;
+}
+.card-icon{
+    color: white;
     width: 100px;
     height: 100px;
-    font-size: 2.5rem;
-    background-color: white !important;
+    background-color: #4ecdc4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -50px;
+    border-radius: 50%;
 }
-.features{
-    transform: translateX(-60px);
+.dark_blue_col{
+    color: #2F327D;
 }
+.Teal-col{
+    color: #00CBB8;
+}
+    
 
-@media screen and (max-width:767px){
-    .features{
-    transform: translateY(-5%);
-    }
+/* About section */
+.about-cards .card:first-child,.about-cards .card:nth-child(2){
+    min-height: 20rem;
+background:  
+    linear-gradient(to right, rgba(23, 27, 65,0.2), rgba(23, 27, 65,0.2) ),
+    url('../../assets/images/Home/Rectangle\ 19.png') center/cover no-repeat;
+}
+.about-cards .card:nth-child(2){
+    background:  
+    linear-gradient(to right, rgba(23, 27, 65,0.2), rgba(23, 27, 65,0.2) ),
+    url('../../assets/images/Home/Group\ 23.png') center/cover no-repeat;
+}
+.about-cards .card:nth-child(2) button{
+    background-color: rgba(35, 189, 238,0.8);
+}
+.about-cards .card button{
+    background-color: transparent;
 }

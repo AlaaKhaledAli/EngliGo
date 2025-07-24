@@ -3,9 +3,10 @@ input:-webkit-autofill {
     box-shadow: none !important;
   transition: background-color 5000s ease-in-out 0s; /* prevent override */
 }
-input{
-    margin-left: 25%;
+label{
+    color: black;
+    margin-bottom: 15px;
 }
-.input-group i{
-    left: 3%;
-} 
+.Teal-bor-col{
+    border-color:#49BBBD;
+}

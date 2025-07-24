@@ -1,0 +1,28 @@
+.record-fs{
+font-size: 10rem;
+color:rgba(35, 189, 238,0.7) ;
+    transition: all 0.5s;
+
+}
+.record{
+    animation: fs-Animat 3s infinite ;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+@keyframes fs-Animat {
+    10%{
+            font-size: 11rem;
+    }
+    30%{
+            font-size: 12rem;
+    }
+    50%{
+            font-size: 10rem;
+    }
+    75%{
+        font-size: 13rem;
+    }
+    100%{
+        font-size: 11rem;
+    }
+}

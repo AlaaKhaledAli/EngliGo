@@ -1,4 +1,4 @@
-nav {
+/* nav {
     position: static !important;
 }
 form  .input-group input:focus,input:is(:-webkit-autofill, :autofill)
@@ -13,4 +13,24 @@ form  .input-group input:focus,input:is(:-webkit-autofill, :autofill)
 }
 .input-group i{
     left: 5%;
-} 
+}  */
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+.login .active{
+    background-color: #49BBBD ;
+}
+
+.bg-teal-light{
+    background-color: rgba(73, 187, 189,0.6);
+}
+.bg-teal{
+    background-color: #49BBBD ;    
+}
+.w-fit{
+    width: fit-content;
+}

@@ -1,0 +1,14 @@
+nav{
+    background-color: rgba(35, 189, 238,0.7);
+    
+    color: white;
+}
+.trans-bg{
+background-color: transparent;
+}
+nav *{
+    color: white !important;
+}
+.bg-white-30{
+    background-color: rgba(255, 255, 255,0.3);
+}
