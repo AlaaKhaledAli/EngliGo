@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/EngliGo/static/css/main.41023492.css",
-    "main.js": "/EngliGo/static/js/main.5f8d9eb5.js",
+    "main.css": "/EngliGo/static/css/main.db899d76.css",
+    "main.js": "/EngliGo/static/js/main.3c9ca0a8.js",
     "static/js/453.2da981d4.chunk.js": "/EngliGo/static/js/453.2da981d4.chunk.js",
-    "static/media/lovely-teenage-girl-with-curly-hair-posing-yellow-tshirt-min.png": "/EngliGo/static/media/lovely-teenage-girl-with-curly-hair-posing-yellow-tshirt-min.c72375878dc37a2f9026.png",
+    "static/media/Group 234.png": "/EngliGo/static/media/Group 234.aff33cd518d3b53a98aa.png",
     "static/media/Group 231.png": "/EngliGo/static/media/Group 231.7c6bba37c913f9fad580.png",
-    "static/media/Group 23.png": "/EngliGo/static/media/Group 23.1011080398c9be0a2269.png",
-    "static/media/Rectangle 19.png": "/EngliGo/static/media/Rectangle 19.16e8a7488abfec6bf91d.png",
+    "static/media/lovely-teenage-girl-with-curly-hair-posing-yellow-tshirt-minn.png": "/EngliGo/static/media/lovely-teenage-girl-with-curly-hair-posing-yellow-tshirt-minn.df53b610a0e833f7436b.png",
+    "static/media/Rectangle 199.png": "/EngliGo/static/media/Rectangle 199.0927473a8cb2562e80b4.png",
     "static/media/logo.svg": "/EngliGo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/EngliGo/index.html",
-    "main.41023492.css.map": "/EngliGo/static/css/main.41023492.css.map",
-    "main.5f8d9eb5.js.map": "/EngliGo/static/js/main.5f8d9eb5.js.map",
+    "main.db899d76.css.map": "/EngliGo/static/css/main.db899d76.css.map",
+    "main.3c9ca0a8.js.map": "/EngliGo/static/js/main.3c9ca0a8.js.map",
     "453.2da981d4.chunk.js.map": "/EngliGo/static/js/453.2da981d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41023492.css",
-    "static/js/main.5f8d9eb5.js"
+    "static/css/main.db899d76.css",
+    "static/js/main.3c9ca0a8.js"
   ]
 }
